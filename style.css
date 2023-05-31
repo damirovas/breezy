@@ -56,6 +56,11 @@ a{
 flex-basis: 35%;
 background-color: var(--grey);
 border-radius: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transition: 0.4s;
 
 
 
@@ -64,5 +69,33 @@ border-radius: 40px;
     flex-basis: 65%;
     background-color: var(--black);
     border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
    
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.sosial-links{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--grey);
+    cursor: pointer;
+   
+}
+.sosial-links:hover{
+background-color: rgba(0, 0, 0, 5);
 }
