@@ -2,6 +2,9 @@
 --white:#fff;
 --black:#000;
 --grey:#C0C0C0;
+--dark-grey:#A9A9A9;
+--blue:#87CEEB;
+
 }
 
 *{
@@ -64,6 +67,7 @@ transition: 0.4s;
 
 
 
+
 }
 .right{
     flex-basis: 65%;
@@ -96,6 +100,30 @@ transition: 0.4s;
     cursor: pointer;
    
 }
-.sosial-links:hover{
-background-color: rgba(0, 0, 0, 5);
+button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: var(--dark-grey);
+    border-color: var(--white);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+
 }
+button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border: none;
+}
+footer{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+
